@@ -1,0 +1,148 @@
+#title{
+  background-color: #ff4c68;
+
+font-family: 'Ubuntu', sans-serif;
+height: 150px;
+}
+#bg{
+  background-color: #ff4c68;
+}
+h1{
+  font-family: 'Montserrat',;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight:bolder;
+   color: white;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.dog{
+  transform: rotate(25deg);
+  width: 50%;
+  position: absolute;
+ right:30%;
+}
+.pdog{
+ position: relative;
+}
+#features{
+  padding: 10%;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.pics{
+  height: 20px;
+}
+.f{
+  padding:0 25% 0 25%;
+  color: grey;
+}
+#testimonials{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding:2%;
+  padding-bottom: 3%;
+
+}
+.tst{
+  padding: 5% 13% 2% 13%;
+  font-size: 3.5rem;
+  color: #ffff;
+
+}
+.pr{
+   width:7%;
+   border-radius: 100%;
+
+}
+em{
+  color: #ffff;
+  font-weight: bolder;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.prslog{
+  width: 15%;
+  padding:2%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+}
+#pricing{
+  padding:40px;
+  text-align: center;
+}
+.price{
+  padding: 20px;
+}
+.card-body{
+  padding:2px;
+}
+@media (max-width:1028px) {
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+  #bg{
+    text-align: center;
+  }
+}
+.fontsclr{
+  color:#ef8172;
+}
+.fontsclr:hover{
+  color:#ff4c68;
+}
+#cta{
+
+
+  align-content: center;
+  background-color: #ff4c68;
+  text-align: center;
+
+
+
+
+  padding: 5% 13% 2% 13%;
+
+  color: #ffff;
+    text-align: center;
+
+}
+.ctah{
+  color: #ffff;
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+}
+.buttonsd{
+  margin: 5% 2% 5% 0%;
+}
+#footer{
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+
+}
+.footerss{
+  color: grey;
+}
+.footicon{
+  margin: 1%
+}
+.pricehead{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+.row{
+  margin-top: 5%;
+}
